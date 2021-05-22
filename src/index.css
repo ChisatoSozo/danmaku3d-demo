@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'tuhu';
+    src: url('./fonts/851CHIKARA-DZUYOKU_kanaA_004.ttf');
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: tuhu !important;
+    font-size: 3vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+div {
+    outline: none;
+    border: 0px none black;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.game-canvas {
+    cursor: none;
+}

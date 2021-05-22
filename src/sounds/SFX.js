@@ -1,0 +1,22 @@
+import LoopingSound from './LoopingSound';
+import MultiSound from './MultiSound';
+
+export const choiceSound = new MultiSound('/sfx/select00.wav', 0.2);
+export const selectSound = new MultiSound('/sfx/ok00.wav', 0.2);
+export const backSound = new MultiSound('/sfx/cancel00.wav', 0.2);
+export const bossDeathQuiet = new MultiSound('/sfx/enep01.wav', 0.2);
+export const bossDeathLoud = new MultiSound('/sfx/enep01.wav', 0.6);
+export const enemyDamage = new MultiSound('/sfx/damage00.wav', 0.5, 2);
+export const enemyDeath = new MultiSound('/sfx/enep00.wav', 0.2);
+export const enemyShoot = new MultiSound('/sfx/tan00.wav', 0.35, 1, 10);
+export const enemyChangeBullet = new MultiSound('/sfx/kira00.wav', 0.20);
+export const minionSpawn = new MultiSound('/sfx/kira00.wav', 0.20);
+export const itemGet = new MultiSound('/sfx/item00.wav', 0.30);
+export const playerShoot = new LoopingSound('/sfx/plst00.wav', 0.1, 2);
+export const playerBombCharge = new MultiSound('/sfx/power0.wav', 0.5);
+export const playerBombCharge2 = new MultiSound('/sfx/power0.wav', 0.3);
+export const playerMasterSpark = new MultiSound('/sfx/nep00.wav', 1.0);
+export const playerBombShoot = new MultiSound('/sfx/tan00.wav', 0.1);
+export const playerPowerUp = new MultiSound('/sfx/powerup.wav', 0.3);
+export const playerGraze = new MultiSound('/sfx/graze.wav', 0.1);
+export const playerDeath = new MultiSound('/sfx/pldead00.wav', 0.1);

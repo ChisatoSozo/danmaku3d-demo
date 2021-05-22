@@ -1,0 +1,94 @@
+{
+    "systems": [
+        {
+            "name": "chargeBombMarisaParticles",
+            "id": "f207d1a3-438b-4818-8ae1-d3b9c624bc3d",
+            "capacity": 500,
+            "emitter": [
+                0,
+                0,
+                0
+            ],
+            "particleEmitterType": {
+                "type": "SphereParticleEmitter",
+                "radius": 3,
+                "radiusRange": 0,
+                "directionRandomizer": 0
+            },
+            "textureName": "glow.png",
+            "invertY": true,
+            "animations": [],
+            "beginAnimationOnStart": false,
+            "beginAnimationFrom": 0,
+            "beginAnimationTo": 60,
+            "beginAnimationLoop": false,
+            "startDelay": 0,
+            "renderingGroupId": 0,
+            "isBillboardBased": true,
+            "billboardMode": 7,
+            "minAngularSpeed": -0.5,
+            "maxAngularSpeed": 0.5,
+            "minSize": 0.1,
+            "maxSize": 0.5,
+            "minScaleX": 1,
+            "maxScaleX": 1,
+            "minScaleY": 1,
+            "maxScaleY": 1,
+            "minEmitPower": -20,
+            "maxEmitPower": -20,
+            "minLifeTime": 0.5,
+            "maxLifeTime": 0.5,
+            "emitRate": 500,
+            "gravity": [
+                0,
+                0,
+                0
+            ],
+            "noiseStrength": [
+                10,
+                10,
+                10
+            ],
+            "color1": [
+                0.1,
+                0.4,
+                1,
+                1
+            ],
+            "color2": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "colorDead": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "updateSpeed": 0.01,
+            "targetStopDuration": 0,
+            "blendMode": 0,
+            "preWarmCycles": 0,
+            "preWarmStepOffset": 1,
+            "minInitialRotation": 0,
+            "maxInitialRotation": 0,
+            "startSpriteCellID": 0,
+            "endSpriteCellID": 0,
+            "spriteCellChangeSpeed": 1,
+            "spriteCellWidth": 0,
+            "spriteCellHeight": 0,
+            "spriteRandomStartCell": false,
+            "isAnimationSheetEnabled": false,
+            "textureMask": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "customShader": null,
+            "preventAutoStart": false
+        }
+    ]
+}
