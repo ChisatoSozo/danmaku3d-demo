@@ -26,7 +26,7 @@ export const DEV_COLLISIONS_CHANGE_POSITION = true;
 export const DEV_REHYDRATE_LS = true;
 export const DEV_RESET_LS = false;
 export const DEV_ALWAYS_FULL_POWER = false;
-export const DEV_OVERPOWERED = true;
+export const DEV_OVERPOWERED = false;
 
 export const BULLET_WARNING = 0.2;
 

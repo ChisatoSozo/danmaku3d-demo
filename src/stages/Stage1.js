@@ -13,7 +13,7 @@ import { setupStage1 } from './Stage1Setup';
 
 export const Stage1 = () => {
     const scene = useScene();
-    const [epochIndex, setEpochIndex] = useState(3);
+    const [epochIndex, setEpochIndex] = useState(0);
     const stageSource = useMemo(() => stage1def(), []);
     const currentActionList = useMemo(() => makeActionListTimeline(stageSource.epochs[epochIndex]), [stageSource, epochIndex]);
     const enemyActionList = useMemo(() => currentActionList.filter((action) => action.type === 'enemies'), [currentActionList]);

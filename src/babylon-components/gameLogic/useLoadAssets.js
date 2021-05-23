@@ -233,7 +233,7 @@ export const useLoadAssets = () => {
             },
             {
                 rootUrl: '/assets/bullets/egg/',
-                sceneFilename: qualityMap[SETTINGS.QUALITY].egg,
+                sceneFilename: qualityMap[SETTINGS.QUALITY]?.egg || "egg.glb",
                 name: 'egg',
                 type: 'model',
             },
@@ -245,7 +245,7 @@ export const useLoadAssets = () => {
                         'sphere',
                         {
                             diameter: 2,
-                            segments: qualityMap[SETTINGS.QUALITY].segments,
+                            segments: qualityMap[SETTINGS.QUALITY]?.segments || 10,
                             updatable: false,
                         },
                         scene
@@ -280,7 +280,7 @@ export const useLoadAssets = () => {
                         'sphereWithHaloInner',
                         {
                             diameter: 1.5,
-                            segments: qualityMap[SETTINGS.QUALITY].segments,
+                            segments: qualityMap[SETTINGS.QUALITY]?.segments || 10,
                         },
                         scene
                     );
@@ -289,7 +289,7 @@ export const useLoadAssets = () => {
                         {
                             diameter: 2.0,
                             thickness: 0.1,
-                            tessellation: qualityMap[SETTINGS.QUALITY].segments * 2,
+                            tessellation: (qualityMap[SETTINGS.QUALITY]?.segments || 10) * 2,
                         },
                         scene
                     );
